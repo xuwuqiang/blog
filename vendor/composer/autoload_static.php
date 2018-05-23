@@ -27,6 +27,7 @@ class ComposerStaticInit17be24c0f085d9f51fa83a2bb93e9ba1
         'c9b7496aa2e287ba00ff44d2d2a861b1' => __DIR__ . '/..' . '/hieu-le/active/src/helpers.php',
         'cb61d74ad51d00867155534456b38b23' => __DIR__ . '/..' . '/mews/purifier/src/helpers.php',
         '377b22b161c09ed6e5152de788ca020a' => __DIR__ . '/..' . '/spatie/laravel-permission/src/helpers.php',
+        'ef157334f1067da991ff8953983afdb3' => __DIR__ . '/../..' . '/app/Helpers/helper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -515,6 +516,7 @@ class ComposerStaticInit17be24c0f085d9f51fa83a2bb93e9ba1
         'App\\Http\\Requests\\UserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UserRequest.php',
         'App\\Jobs\\TranslateSlug' => __DIR__ . '/../..' . '/app/Jobs/TranslateSlug.php',
         'App\\Models\\Category' => __DIR__ . '/../..' . '/app/Models/Category.php',
+        'App\\Models\\Consts' => __DIR__ . '/../..' . '/app/Models/Consts.php',
         'App\\Models\\Link' => __DIR__ . '/../..' . '/app/Models/Link.php',
         'App\\Models\\Model' => __DIR__ . '/../..' . '/app/Models/Model.php',
         'App\\Models\\Reply' => __DIR__ . '/../..' . '/app/Models/Reply.php',
@@ -522,6 +524,7 @@ class ComposerStaticInit17be24c0f085d9f51fa83a2bb93e9ba1
         'App\\Models\\Traits\\ActiveUserHelper' => __DIR__ . '/../..' . '/app/Models/Traits/ActiveUserHelper.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Notifications\\TopicReplied' => __DIR__ . '/../..' . '/app/Notifications/TopicReplied.php',
+        'App\\Observers\\LinkObserver' => __DIR__ . '/../..' . '/app/Observers/LinkObserver.php',
         'App\\Observers\\ReplyObserver' => __DIR__ . '/../..' . '/app/Observers/ReplyObserver.php',
         'App\\Observers\\TopicObserver' => __DIR__ . '/../..' . '/app/Observers/TopicObserver.php',
         'App\\Observers\\UserObserver' => __DIR__ . '/../..' . '/app/Observers/UserObserver.php',
